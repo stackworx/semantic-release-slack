@@ -1,0 +1,39 @@
+{
+  "name": "@stackworx/semantic-release-gitlab-slack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && standard --fix",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once",
+    "watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "repository": "https://github.com/stackworx/semantic-release-slack",
+  "keywords": [
+    "Slack",
+    "releases"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false,
+    "arrowParens": "always"
+  },
+  "author": "Ciaran Liedeman",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "escape-string-regexp": "^1.0.5",
+    "parse-path": "^3.0.4"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "prettier": "^1.14.0"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
