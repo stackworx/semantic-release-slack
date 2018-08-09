@@ -1,6 +1,6 @@
 {
-  "name": "@stackworx/semantic-release-gitlab-slack",
-  "version": "0.0.8",
+  "name": "@stackworx/semantic-release",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {

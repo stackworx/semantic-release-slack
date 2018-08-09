@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`removeLinks 1`] = `
+"## 1.0.5 (2018-08-08)
+
+
+### Bug Fixes
+
+* Resolves BLMP-143 Testing release (d1a3a89)
+
+
+
+"
+`;
