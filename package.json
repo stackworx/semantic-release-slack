@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --env=node",
+    "test:debug": "ndb ./node_modules/.bin/jest --runInBand --env=node",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
